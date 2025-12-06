@@ -879,7 +879,7 @@
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-release-plugin</artifactId>
-      <version>2.2.2</version>
+      <version>3.3.0</version>
       <type>maven-plugin</type>
     </dependency>
     <!-- We should replace this by other lib <dependency> <groupId>net.sourceforge.htmlunit</groupId>
@@ -1379,8 +1379,7 @@
         <version>0.10</version>
         <configuration>
           <licenses>
-            <license
-              implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
+            <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
               <licenseFamilyCategory>AGPL3</licenseFamilyCategory>
               <licenseFamilyName>GNU Affero General Public License,
                 Version 3</licenseFamilyName>
